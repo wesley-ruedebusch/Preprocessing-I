@@ -54,6 +54,36 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	width: 90%;
+	margin: 20px auto;
+}
+
+/* Variables */
+
+
+/* mixins, nesting, .less coding starts here */
+
+.body-content {
+	width: 90%;
+	margin: 20px auto;
+}
+
+header {
+	background-color:grey;
+	width: 90%;
+	padding: 1rem;
+
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		background: lightblue;
+	}
+
+	nav a {
+		text-decoration:none;
+		color: black;
+	}
 }
 
