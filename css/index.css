@@ -156,10 +156,15 @@ header nav a {
 .body-content {
   width: 90%;
   margin: 20px auto;
+  display: flex;
 }
 .intro {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
+}
+.intro .intropic {
+  height: 100%;
+  width: 25%;
 }
